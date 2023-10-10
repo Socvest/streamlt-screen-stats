@@ -1,6 +1,6 @@
 import streamlit as st
 from st_screen_stats import ScreenData, StreamlitNativeWidgetScreen
-
+st.set_page_config(layout="wide")
 
 st.subheader("Component with constant args")
 
